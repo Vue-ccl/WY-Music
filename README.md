@@ -10,17 +10,17 @@
 
 - 首页
 
-![屏幕截图 2022-06-21 220134.png](https://p.sda1.dev/6/40b4d02178b2e0003b210c04b8760f69/屏幕截图 2022-06-21 220134.png)
+![屏幕截图 2022-06-21 220134.png](https://p.sda1.dev/6/ed53a7c961e7ba718842d6b0d273fa5f/eaeea55cc3ff93715f4220f64fa004dc.png)
 
 - 歌单页
   
-  ![屏幕截图 2022-06-21 220207.png](https://p.sda1.dev/6/22a207ac8fc73008eebdb7fda2a622fe/屏幕截图 2022-06-21 220207.png)
+  ![屏幕截图 2022-06-21 220207.png](https://p.sda1.dev/6/af68b04aa7dd18e981503eccf9f39ecd/ac439c045926c6f2cdc123a8c28856a2.png)
 
 - 歌曲-MV播放页
   
-  ![屏幕截图 2022-06-21 220312.png](https://p.sda1.dev/6/e6bfc45cddf598aa826c7b4433a5124f/屏幕截图 2022-06-21 220312.png)
+  ![屏幕截图 2022-06-21 220312.png](https://p.sda1.dev/6/4105a3c2c1cbca86ab979133ee5565b4/01247df6fa1e827e83cea11e4f596e6f.png)
   
-  ![屏幕截图 2022-06-21 220327.png](https://p.sda1.dev/6/26c2a0efc179a1cf5a62dd760dcd4cca/屏幕截图 2022-06-21 220327.png)
+  ![屏幕截图 2022-06-21 220327.png](https://p.sda1.dev/6/2e9acb82f879fd1c3d5358b9331cb2c2/aff8ad57c3868a86bed719fb7c13acbc.png)
   
   <br/>
   
