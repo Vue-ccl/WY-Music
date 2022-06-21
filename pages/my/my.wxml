@@ -1,0 +1,8 @@
+<!--pages/my/my.wxml-->
+<view id="myLogin">
+      <block wx:if="{{isLogin}}">
+            <image id="myIcon" src="{{src}}"></image>
+            <text id="nickName">{{nickName}}</text>
+      </block>
+      <button wx:else bindtap="getUserProfile">未登录，点此登录</button>
+</view>

@@ -1,0 +1,31 @@
+<!--pages/musicopen/musicopen.wxml-->
+<view class="musicbg">
+  <view class="musicbg01">
+    <image src="{{titleimage}}"></image>
+  </view>
+  <view class="musicbg02">
+    <view class="titletext01">{{titlename}}</view>
+    <view class="titletext02">
+      <image src="{{nickimage}}"></image> {{nickname}}
+    </view>
+  </view>
+</view>
+
+<view>
+  <view class="allplay">
+    <image class="playimage" src="/images/musicopen/playtitle.png"></image>播放全部
+  </view>
+  <view class="alllist" wx:for="{{tracks}}" bindtap="musicplay" data-songid="{{item.id}}">
+    <view class="listitem">{{index+1}}</view>
+    <view class="listtext">
+      <view class="listtext01">
+        <text class="title01">{{item.name}}\n</text>
+        <text class="title02">{{item.ar[0].name}}.{{item.ar[1].name}}.</text>
+      </view>
+    </view>
+    <navigator url="/pages/mvpaly/mvpaly?mvid={{item.mv}}" catchtap="funNull" >
+    <image wx:if="{{item.mv!=0}}" class="playimage" src="/images/musicopen/playleft.png"></image>
+    </navigator>
+  </view>
+</view>
+

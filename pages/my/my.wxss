@@ -1,0 +1,22 @@
+/* pages/my/my.wxss */
+/* 登录面板 */
+#myLogin{
+  background-color: #a5a3a3;
+  height: 400rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* 1-1微信头像 */
+#myIcon{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}
+
+/* 1-2用户昵称 */
+#nickName{
+  color: white;
+}

@@ -1,0 +1,13 @@
+<!--pages/search/search.wxml-->
+<view class="search1">
+  <image src="/images/top/fdj.png" style="margin:0 25rpx 0 40rpx ;"></image>
+  <input class="weui-input" auto-focus placeholder="{{textword}}" bindconfirm="startsearch" confirm-type="search"/>
+</view>
+<view class="wordlist">
+  <view class="title">大家都在搜</view>
+  <view class="list_item" wx:for="{{searchList}}" bindtap="startsearch2" data-value="{{item.searchWord}}">
+    <view>{{index+1}}.</view>
+    <view>{{item.searchWord}}</view>
+    <view><image src="{{item.iconUrl}}"></image></view>
+  </view>
+</view>

@@ -1,0 +1,20 @@
+<!--pages/mvpaly/mvpaly.wxml-->
+<video id="myVideo" controls src="{{src}}" enable-danmu danmu-btn autoplay="true"></video>
+
+<view class="danmuArea">
+  <input type="text" placeholder="请输入弹幕内容" bindinput="getDanmu" value="{{danmuTxt}}"></input>
+  <button bindtap="sendDanmu">发送</button>
+</view>
+
+<view >
+<leftText myTitle="相似MV推荐" />
+</view>
+<view class="videoList">
+  <navigator class="videoBar" wx:for="{{list}}" wx:key="index" url="/pages/mvpaly/mvpaly?mvid={{item.id}}" >
+    <image src="{{item.cover}}"></image>
+    <view>
+      <text>{{item.name}}\n</text>
+      <text class="arname_text">{{item.artists[0].name}}.{{item.artists[1].name}}</text>
+    </view>
+  </navigator>
+</view>

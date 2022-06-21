@@ -1,0 +1,47 @@
+
+.allplay{
+  display: flex;
+  flex-direction: row;
+  height: 60rpx;
+  font-size: 35rpx;
+  font-weight: 550;
+  align-items: center;
+  margin: 20rpx;
+}
+.alllist{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10rpx 0;
+  height: 90rpx;
+}
+.listitem{
+  width: 60rpx;
+  height: 60rpx;
+  margin-left: 20rpx;
+  font-size: 40rpx;
+  color: rgb(143, 149, 155);
+}
+.listtext{
+  display: flex;
+  flex-grow: 1;
+  height: 80rpx;
+  align-items: center;
+}
+.listtext01{
+  line-height: 35rpx;
+  height: 60rpx;
+}
+.title01{
+  font-size: 35rpx;
+}
+.title02{
+  float: left;
+  font-size: 25rpx;
+  color: rgb(143, 149, 155);
+}
+.playimage{
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 10rpx;
+}

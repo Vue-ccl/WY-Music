@@ -1,0 +1,91 @@
+<view class="top-all">
+  <image src="/images/top/more.png"></image>
+  <view id="top-center">
+    <view class="top-input" bindtap="goTosearch" data-text="{{searchword}}">
+      <image src="/images/top/fdj.png" style="margin:0 25rpx 0 40rpx ;"></image>
+      <text>{{searchword}}</text>
+    </view>
+  </view>
+  <image src="/images/top/mkf.png"></image>
+</view>
+<view style="height: 143rpx;"></view>
+<view class="top2-all">
+  <view id="lunbo">
+    <swiper indicator-dots="true" autoplay="true" interval="5000" duration="500">
+      <block wx:for="{{swiperImg}}" wx:key='index'>
+        <swiper-item>
+          <image src="{{item.src}}"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</view>
+
+<view class="top3-all">
+  <view wx:for="{{eday}}" wx:key="index">
+    <navigator url="{{item.url}}" class="best" >
+    <image src="{{item.src}}"></image>
+      <text>{{item.text}}</text>
+    </navigator>
+  </view>
+</view>
+
+<view class="all">
+  <view class="top4-all">
+    <leftText myTitle="推荐歌单" />
+    <scroll-view scroll-x="true" style=" white-space: nowrap; display: flex ; margin: 10rpx 0;">
+      <view class='scr' wx:for="{{tjgdList}}" wx:key='index'>
+        <view id="imgtext"  bindtap="goToopen" data-text="{{item.id}}" data-ifmusic="1">
+          <image src="{{item.picUrl}}"></image>
+          <text>{{item.name}}</text>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+
+  <view class="top5-all">
+    <leftText myTitle="新碟推荐" />
+    <scroll-view scroll-x="true" style=" white-space: nowrap; display: flex ; ">
+      <view class="scr">
+        <view class="personal" wx:for="{{[newsong[0],newsong[1],newsong[2]]}}" bindtap="musicplay" data-songid="{{item.id}}" wx:key="index">
+          <view>
+            <image src="{{item.picUrl}}"></image>
+          </view>
+          <view>
+            <text>{{item.name}}</text>
+            <view></view>
+            <text wx:for="{{item.song.artists}}" style="font-size: 25rpx;" wx:key="indexxxxxx">{{item.name}}.</text>
+          </view>
+        </view>
+      </view>
+      <view class="scr">
+        <view class="personal" wx:for="{{[newsong[3],newsong[4],newsong[5]]}}" bindtap="musicplay" data-songid="{{item.id}}" wx:key="index">
+          <view>
+            <image src="{{item.picUrl}}"></image>
+          </view>
+          <view>
+            <text>{{item.name}}</text>
+            <view></view>
+            <text wx:for="{{item.song.artists}}" style="font-size: 25rpx;" wx:key="indexx">{{item.name}}.</text>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+
+
+  <view class="top5-all">
+    <leftText myTitle="排行榜" />
+    <view class="centen">   
+       <view class="box1">
+        <view class="best"><text id="text1">华语歌手榜</text></view>
+        <view class="personal" wx:for="{{hygsbList}}" wx:key='index' wx:if="{{index<5}}"bindtap="goToopen2" data-id="{{item.id}}" data-ifmusic="2" >
+          <image src="{{item.picUrl}}"></image>
+          <text>{{index+1+'. '}}{{item.name}}</text>
+        </view>
+      </view>
+    </view>
+
+  </view>
+
+</view>

@@ -1,0 +1,48 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/search/search",
+          "pathName": "pages/search/search",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/musicopen/musicopen",
+          "pathName": "pages/musicopen/musicopen",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/searchresult/searchresult",
+          "pathName": "pages/searchresult/searchresult",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mvpaly/mvpaly",
+          "pathName": "pages/mvpaly/mvpaly",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

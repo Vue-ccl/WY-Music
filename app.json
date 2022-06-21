@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mv/mv",
+    "pages/fans/fans",
+    "pages/my/my",
+    "pages/search/search",
+    "pages/musicopen/musicopen",
+    "pages/musicpaly/musicpaly",
+    "pages/searchresult/searchresult",
+    "pages/mvpaly/mvpaly",
+    "pages/top5_1/top5_1"
+
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#F14141",
+    "navigationBarTitleText": "网抑云音乐"
+  },
+  "tabBar": {
+    "color": "#A2A2A2",
+    "selectedColor": "#F14141",
+    "list": [
+      {"pagePath": "pages/index/index",
+        "iconPath": "images/tab/index1.png",
+        "selectedIconPath": "images/tab/index2.png",
+        "text": "首页"
+      },
+      {"pagePath": "pages/mv/mv",
+        "iconPath": "images/tab/mv1.png",
+        "selectedIconPath": "images/tab/mv2.png",
+        "text": "MV"
+      },
+      {"pagePath": "pages/fans/fans",
+        "iconPath": "images/tab/fans1.png",
+        "selectedIconPath": "images/tab/fans2.png",
+        "text": "关注"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "images/tab/my1.png",
+        "selectedIconPath": "images/tab/my2.png",
+        "text": "我的"
+       }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,51 @@
+/* pages/mvpaly/mvpaly.wxss */
+video{
+  width: 100%;
+}
+.danmuArea{
+  display: flex;
+  flex-direction: row;
+}
+input{
+  border: 1rpx solid #987938;
+  flex-grow: 1;
+  height: 100rpx;
+}
+button{
+  border: 1rpx solid #FF0066;
+  color: white;
+  background-color: #FF0066;
+  border-radius: 0%;
+  height: 100rpx;
+  flex-grow: 1;
+}
+.mvtext{
+  margin: 20rpx;
+  font-size: 40rpx;
+  font-weight: 400;
+}
+.videoList{
+  width: 100%;
+  min-height: 400rpx;
+}
+.videoBar{
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1rpx solid #FF0066;
+  margin: 10rpx;
+}
+image{
+  width: 100rpx;
+  height: 100rpx;
+  margin: 10rpx;
+}
+text{
+  font-size: 35rpx;
+  margin: 20rpx;
+  flex-grow: 1;
+}
+.arname_text{
+  color: #7e7d7a;
+  font-size: 30rpx;
+}

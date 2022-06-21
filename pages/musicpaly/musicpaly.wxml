@@ -1,0 +1,26 @@
+<!--pages/musicpaly/musicpaly.wxml-->
+<view class='item'>
+  <view class="item01">
+  <text id="item_text1">{{songname}}\n</text>
+  <text id="item_text2"wx:for="{{songar}}">{{item.name}}.</text>
+  </view>
+
+  <view class="item02">
+    <image class='audio_post{{music_on?" music_on":""}}'
+      style="animation-play-state:{{music_playing?'running':'paused'}}" src='{{imageurl}}'></image>
+  </view>
+
+  <view class='audio_progress'>
+    <slider block-size='14' activeColor="red" bindchange='audioChange' bindchanging='audioChanging' value='{{sliderValue}}'></slider>
+    <view>{{musicTime}}</view>
+  </view>
+
+  <view class='audio_control'>
+    <block wx:if="{{!ifpaly}}">
+    <image src="/images/musicopen/start.png" bindtap='playMusic'></image>
+    </block>
+    <block wx:else>
+    <image src="/images/musicopen/stop.png" bindtap='pauseMusic'></image>
+    </block>   
+  </view>
+</view>

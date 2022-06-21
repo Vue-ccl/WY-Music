@@ -1,0 +1,6 @@
+/* Components/index/leftText/leftText.wxss */
+.text1{
+  font-size: 40rpx;
+  font-weight: 550;
+  margin: 10rpx 0;
+}

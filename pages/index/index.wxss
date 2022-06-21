@@ -1,0 +1,133 @@
+/**app.wxss**/
+ .top-all{
+   display: flex;
+   width: 100%;
+   height: 143rpx;
+   background-color: #f1f1f1;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   position: fixed;
+   z-index: 1;
+ }
+ .top-all image{
+   margin: 0 20rpx;
+   height: 47rpx;
+   width: 51rpx;
+ }
+ .top-input{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   background-color: white;
+   height: 88rpx;
+   border-radius: 100rpx;
+ }
+ #top-center{
+   width: 80%;
+ }
+ .top2-all{
+  width: 100%;
+  background: -webkit-linear-gradient(top,#f1f1f1,#fff)
+ }
+ .top2-all image{
+   margin-left: 38rpx;
+   border-radius: 30rpx;
+   height: 100%;
+   width: 90%;
+ }
+ .top3-all{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   height:160rpx;
+   justify-content: space-around;
+   background-color: white;
+ }
+ .best{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:20rpx 0;
+ }
+ .top3-all image{
+   width: 80rpx;
+   height: 80rpx;
+ }
+ .top3-all text{
+   font-size: 27rpx;
+ }
+ .top4-all{
+   display: flex;
+   flex-direction: column;
+    width:100%;
+    padding: 5rpx 20rpx; 
+    background-color: white;
+    border-top: 1rpx solid #f1f1f1;
+    border-radius: 0 0 20rpx 20rpx;
+    margin-bottom: 20rpx;
+ }
+ .top4-all image{
+   width: 200rpx;
+   height: 200rpx;
+   border-radius: 30rpx;
+ }
+ .scr{
+    display: inline-block;
+    
+ } 
+ #imgtext{
+   width: 200rpx;
+   display: flex;
+   flex-direction: column;
+   margin-right: 20rpx;
+   font-size: 27rpx;
+ }
+
+ .all{
+   display: flex;
+   flex-direction: column;
+   background-color:#f1f1f1;
+ }
+ .top5-all{
+  display: flex;
+  flex-direction: column;
+   width:100%;
+   padding: 5rpx 20rpx; 
+   background-color: white;
+   border-top: 1rpx solid #f1f1f1;
+   border-radius:20rpx;
+   margin-bottom: 20rpx;
+}
+.top5-all image{
+  width: 100rpx;
+  height: 90rpx;
+  margin:20rpx 20rpx 20rpx 0;
+  border-radius: 10rpx;
+}
+
+.personal{
+  width:550rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right:40rpx;
+  border-bottom:1rpx solid #f1f1f1;
+}
+text{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.centen{
+  margin-right: 20rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.box1{
+  margin-top: 20rpx;
+  width: 75%;
+  padding: 30rpx;
+  box-shadow:0 0 9px 3px #999;
+  border-radius: 20rpx;
+}

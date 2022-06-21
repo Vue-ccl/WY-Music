@@ -1,0 +1,4 @@
+<!--Components/index/leftText/leftText.wxml-->
+<view>
+      <text class="text1">{{myTitle}}</text> 
+</view>
